@@ -1,0 +1,67 @@
+.container {
+    background-color: #fff;
+}
+
+
+#para {
+    background-color: rgb(227, 240, 252);
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.btn {
+   
+    border-radius: 80px;
+    border: none;
+    color: black;
+}
+.card {
+    width: 155px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.toggle-button-remove::after {
+    content: none;
+}
+.list li a{
+    text-decoration: none;
+    color:black;
+}
+ul.list{
+    list-style-type: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  input[type="input"] {
+    margin-right: 8px;
+  }
+  a{
+    text-decoration: none;
+    color:black;   
+}
+ul .page-item a.page-link{
+    color: black;
+}
+.pagination {
+    display: inline-block;
+   
+  }
+  .pagination a.active {
+    background-color: black;
+    color: white;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px ;
+    text-decoration: none;
+  }
+  a.pagination-next{
+    border: 1px solid;
+    border-radius: 4px;
+  }

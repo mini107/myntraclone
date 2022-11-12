@@ -1,0 +1,72 @@
+.container {
+    background-color: #fff;
+}
+
+
+#para {
+    background-color: rgb(227, 240, 252);
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.btn {
+    float: inherit;
+}
+
+.card {
+    width: 155px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#mycard {
+    width: 100px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* .nav-item:hover .dropdown-toggle{
+    background-color:#fff;
+    border: none;
+    display: none;
+} */
+
+.toggle-button-remove::after {
+    content: none;
+}
+
+/* .row{
+   width: 100%;
+} */
+.navbar-brand {
+    float: left;
+}
+
+#crd {
+    width: 195px;
+
+
+}
+
+#card-item {
+    width: 260px;
+}
+
+.list li a{
+    text-decoration: none;
+    color:black;
+    
+}
+ul.list{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;   
+}
+
+    

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>login form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(230, 190, 139)
+    }
+
+    @media screen and (max-width: 767px) {
+        img {
+            float: right;
+            display: none;
+        }
+    }
+
+    .row {
+        border-radius: 100%;
+
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .form-control {
+        background-color: antiquewhite;
+    }
+
+    .card {
+        background-color: rgb(245, 214, 177);
+        margin-top:100px;
+        
+
+    }
+
+    .img-fluid {
+        float: right;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="card ">
+
+            <div class="row g-0">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./images/—Pngtree—log in login interface computer_3945571.png" class="img-fluid"
+                        width="80%" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12  ">
+                    <h1 class="text-center ">LOGIN</h1>
+                    <form action="#">
+
+                        <div class="d-flex justify-content-center py-3">
+                            <label for="username" class="form-label">Username: &nbsp;</label>
+                            <input type="text" class="form-control py-1  w-50 d-flex justify-content-around"
+                                placeholder="enter username" name="username" />
+                        </div>
+
+                        <div class="d-flex justify-content-center py-3">
+                            <label for="password" class="form-label ">Password: &nbsp;</label>
+                            <input type="password" class="form-control py-1 w-50" placeholder="enter Password"
+                                name="pswd" />
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <button type="submit"
+                                class="btn btn-primary d-flex justify-content-center my-1">Login</button>
+                        </div>
+                        <p class="d-flex justify-content-center"> <a href="#">forget password</a></p>
+                        <p class="d-flex justify-content-center">or login using </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-primary me-2" style="background-color: #dd4b39;" href="#!"
+                                role="button"><i class="fab fa-google">Google</i></a>
+                            <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"><i
+                                    class="fab fa-facebook-f">Facebook</i></a>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
